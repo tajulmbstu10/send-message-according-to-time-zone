@@ -1,0 +1,19 @@
+{
+  "name": "sendnewyearmessage",
+  "version": "1.0.0",
+  "description": "send a message to different zone user at the time 12pm according to the zone",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MD. TAJUL ISLAM",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment-timezone": "^0.5.27"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
